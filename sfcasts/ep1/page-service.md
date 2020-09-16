@@ -10,7 +10,7 @@ page refreshes where we set the `currentCategoryId` as a global variable in Twig
 
 The point is: the way we get `currentCategoryId` could change. And if we have
 `window.currentCategoryId` sprinkled around our code everywhere, it's... not ideal.
-No problem! Let's isolate our our global variable into a central spot. Enter
+No problem! Let's isolate our global variable into a central spot. Enter
 JavaScript services!
 
 ## JavaScript Services
